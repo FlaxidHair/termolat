@@ -1,0 +1,110 @@
+* {
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px; 
+    a{
+        color:black;
+        text-decoration: none;
+    }
+}
+// Шапка
+.header {
+    display:flex;
+    height:140px;
+    width:100%;
+    z-index:40;
+    border:1px solid;
+    align-items:center;
+    // логотип
+    &__logo{
+        height:105px;
+        width:200px;
+        margin-left:80px;
+    }
+    // навигация
+    &__menu {
+        font:20px Rubik;
+        margin:0 auto;
+        &-item {
+            margin-right:70px;
+        }        
+    }
+}
+.container {
+    // блок с черными векторами и изображением
+    &__clip {
+        border:1px solid blue;
+        height:938px;
+        width:100%;
+        overflow:hidden;
+        position:relative;
+
+    }
+    // левая часть изображения (черный фон с векторами) текст и кнопки
+    .left-clip {
+        background:#383838;
+        clip-path: polygon(0 0, 87% 0, 100% 15%, 87% 100%, 0 100%, 0% 50%);
+        z-index:5;
+        height:100%;
+        width:60%;
+        display:flex;
+        justify-content: flex-start;
+        position:relative;
+        // Векторный блок на черном фоне
+        &__main-block {
+            width:40%;
+            height:100%;
+            position:absolute;
+            right:10% ;
+            z-index:10;
+            top:0px;
+            // вектор 1
+            &--first {
+                right:20%;
+                float:right;
+                width:40%;   
+                z-index:10;         
+                height:100%;               
+            }
+            // вектор 2
+            &--second {
+                right:20%;
+                float:right;
+                width:50%;
+            }
+        }
+        .block-text {
+            position:absolute;
+            border:1px solid white;
+            width:70%;
+            left:115px;
+            top:150px;
+            display:flex;
+            align-items: center;
+            flex-flow:column;
+            z-index:15;
+            &__text-1 {
+                font:50px Rubik;
+                font-weight:600;
+                text-align: center;
+                color:white;
+                line-height: 140%;
+
+            }
+        }
+
+    }
+    // правая часть изображения
+    &__right-clip {
+        position:absolute;
+        bottom:0;
+        right:0;
+        background:url(images/right-clip.png) no-repeat center/cover;
+        height:100%;
+        width:50%;
+    }
+   
+    }
+
+
+

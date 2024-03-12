@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+* a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  height: 140px;
+  width: 100%;
+  z-index: 40;
+  border: 1px solid;
+  align-items: center;
+}
+.header__logo {
+  height: 105px;
+  width: 200px;
+  margin-left: 80px;
+}
+.header__menu {
+  font: 20px Rubik;
+  margin: 0 auto;
+}
+.header__menu-item {
+  margin-right: 70px;
+}
+
+.container__clip {
+  border: 1px solid blue;
+  height: 938px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.container .left-clip {
+  background: #383838;
+  -webkit-clip-path: polygon(0 0, 87% 0, 100% 15%, 87% 100%, 0 100%, 0% 50%);
+          clip-path: polygon(0 0, 87% 0, 100% 15%, 87% 100%, 0 100%, 0% 50%);
+  z-index: 5;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.container .left-clip__main-block {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  right: 10%;
+  z-index: 10;
+  top: 0px;
+}
+.container .left-clip__main-block--first {
+  right: 20%;
+  float: right;
+  width: 40%;
+  z-index: 10;
+  height: 100%;
+}
+.container .left-clip__main-block--second {
+  right: 20%;
+  float: right;
+  width: 50%;
+}
+.container .left-clip .block-text {
+  position: absolute;
+  border: 1px solid white;
+  width: 70%;
+  left: 115px;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  z-index: 15;
+}
+.container .left-clip .block-text__text-1 {
+  font: 50px Rubik;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  line-height: 140%;
+}
+.container__right-clip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(images/right-clip.png) no-repeat center/cover;
+  height: 100%;
+  width: 50%;
+}/*# sourceMappingURL=styles.css.map */
