@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Термолат-современные материалы для строительства</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&family=Madimi+One&family=Nabla:EDPT,EHLT@0..200,0..24&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Шапка -->
@@ -15,15 +16,18 @@
         </div>
         <!-- Навигация  -->
         <nav class="header__menu">
-            <a href=""><span class="header__menu-item">ПРОДУКЦИЯ</span></a>
-            <a href=""><span class="header__menu-item">ПРОЕКТЫ</span></a>
-            <a href=""><span class="header__menu-item">ТЕХНИЧЕСКИЕ РЕШЕНИЯ</span></a>
-            <a href=""><span class="header__menu-item">СЕРТИФИКАТЫ</span></a>
-            <a href=""><span class="header__menu-iteml">КОНТАКТЫ</span></a>
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a href="">ПРОДУКЦИЯ</a></li>
+                <li class="header__menu-item"><a href="">ПРОЕКТЫ</a></li>
+                <li class="header__menu-item"><a href="">ТЕХНИЧЕСКИЕ РЕШЕНИЯ</a></li>
+                <li class="header__menu-item"><a href="">СЕРТИФИКАТЫ</a></li>
+                <li class="header__menu-iteml"><a href="">КОНТАКТЫ</a></li>
+            </ul>
         </nav>
     </header>
     <!-- Основная часть страницы -->
     <div class="container">
+        <section class="container__clip-advantages">
         <div class="container__clip">
             <div class="container__left-clip left-clip">
                 <img src="images/left-block.svg" alt="">
@@ -44,17 +48,41 @@
                     Компания «ТЕРМОЛАТ» рада предложить Вам продукцию собственного производства – материалы для строительства, утепления и отделки жилых домов и объектов частного домостроения (бань, гаражей, подсобных зданий 
                     и сооружений). 
                     </p>
+                    <!-- 2 зеленые кнопки -->
                     <div class="block-text__buttons">
-                    <button>Готовые проекты</button>
-                    <button>Комплексные решения</button>
+                    <button class="block-text__buttons-first">Готовые <br>проекты</button>
+                    <button class="block-text__buttons-second">Комплексные<br> решения</button>
                     </div>
-                </div>
-                
+                </div>             
             </div>
+            <!-- Правое изображение background -->
             <div class="container__right-clip">
                 
             </div>
         </div>
+        <!-- Наши преимущества и ниже -->
+        <div class="container__advantages advantages">
+            <h1 class="advantages__h1">НАШИ ПРЕИМУЩЕСТВА</h1>
+            <div class="advantages__circles">
+                <div class="advantages__circles-1">
+                <img class="advantages__circles--prod" src="images/production.png" alt="П">
+                <p>Собственное<br> производство</p>
+                </div>
+                <div class="advantages__circles-2">
+                <img class="advantages__circles--speed" src="images/speed.png" alt="С">
+                <p>Скорость<br>строительства</p>
+                </div>
+                <div class="advantages__circles-3">
+                <img class="advantages__circles--truck" src="images/truck.png" alt="О">
+                <p>Отгрузка<br>в любой регион</p>
+                </div>
+                <div class="advantages__circles-4">
+                <img class="advantages__circles--check" src="images/check.png" alt="Г">
+                <p>Гарантия<br>качества</p>
+                </div>
+            </div>
+        </div>
+    </section>
     </div>
 </body>
 </html>

@@ -1,3 +1,8 @@
+@mixin fonttype($pix:1) {
+    font-family: "Rubik", sans-serif;
+    font-size:($pix); 
+}
+
 * {
     box-sizing:border-box;
     margin:0px;
@@ -13,7 +18,6 @@
     height:140px;
     width:100%;
     z-index:40;
-    border:1px solid;
     align-items:center;
     // логотип
     &__logo{
@@ -23,17 +27,22 @@
     }
     // навигация
     &__menu {
-        font:20px Rubik;
+        @include fonttype( 20px);
         margin:0 auto;
+        &-list {
+            display:flex;
+            list-style:none;
+        }
         &-item {
             margin-right:70px;
         }        
     }
 }
 .container {
+    background:#EAEAEA;
     // блок с черными векторами и изображением
     &__clip {
-        border:1px solid blue;
+        margin-left:20px;
         height:938px;
         width:100%;
         overflow:hidden;
@@ -75,7 +84,6 @@
         }
         .block-text {
             position:absolute;
-            border:1px solid white;
             width:70%;
             left:115px;
             top:150px;
@@ -84,12 +92,36 @@
             flex-flow:column;
             z-index:15;
             &__text-1 {
-                font:50px Rubik;
+                @include fonttype( 50px);
                 font-weight:600;
                 text-align: center;
                 color:white;
                 line-height: 140%;
-
+                margin-bottom:50px;
+            }
+            &__text-2 {
+                @include fonttype( 20px);
+                color:white;
+                width:60%;
+                text-align: center;
+                line-height: 140%;
+                margin-bottom:80px;
+                
+            }
+            &__buttons {
+                white-space:nowrap;
+                &-first,&-second{
+                    height:90px;
+                    width:340px;
+                    font-weight: 500;
+                    color:white;
+                    border-radius:45px;
+                    border:none;
+                    font-family: "Rubik", sans-serif;
+                    font-size:20px;
+                    margin-right:20px;
+                    background-color: #019801;
+                }
             }
         }
 
@@ -103,7 +135,25 @@
         height:100%;
         width:50%;
     }
-   
+   .advantages {
+    display:flex;
+    flex-flow:column;
+    width:100%;
+    align-items: center;
+
+    &__h1 {
+        @include fonttype(50px);
+        margin:140px 0px 100px 0px;
+    }
+    &__circles {
+        display:flex;
+        &--prod,&--speed,&--truck,&--check {
+            padding:50px;
+            background:white;
+            border-radius:50%;
+        }
+    }
+   }
     }
 
 
