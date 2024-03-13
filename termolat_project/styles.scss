@@ -1,6 +1,8 @@
 @mixin fonttype($pix:1) {
     font-family: "Rubik", sans-serif;
     font-size:($pix); 
+    line-height:140%;
+    color:#1E1E1E;
 }
 
 * {
@@ -42,12 +44,10 @@
     background:#EAEAEA;
     // блок с черными векторами и изображением
     &__clip {
-        margin-left:20px;
         height:938px;
         width:100%;
         overflow:hidden;
         position:relative;
-
     }
     // левая часть изображения (черный фон с векторами) текст и кнопки
     .left-clip {
@@ -112,6 +112,7 @@
                 white-space:nowrap;
                 &-first,&-second{
                     height:90px;
+                    cursor:pointer;
                     width:340px;
                     font-weight: 500;
                     color:white;
@@ -144,16 +145,248 @@
     &__h1 {
         @include fonttype(50px);
         margin:140px 0px 100px 0px;
+        color:#383838;
     }
     &__circles {
         display:flex;
-        &--prod,&--speed,&--truck,&--check {
-            padding:50px;
+        margin-bottom:140px;
+
+        &-block:first-child {
+            margin-left:0px;
+        }
+        
+        &-block {
+            display:flex;
+            margin-left:160px;
+            align-items: center;
+            flex-flow:column;
+            text-align: center;
+        }
+        &-image {
+            height:150px;
+            width:150px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
             background:white;
-            border-radius:50%;
+            border-radius:100%;
+        }
+        p{
+            margin-top:30px;
+            @include fonttype(26px);
+            font-weight: 500;
         }
     }
    }
+   .product {
+    background:white;
+    position:relative;
+    display:flex;
+    flex-flow:column;
+    h1 {
+        @include fonttype(50px);
+        color:#383838;
+        font-weight: 600;
+        margin:140px 0px 80px 250px;
+        position:relative;
+    }
+    &__all{
+        position:absolute;
+        right:250px;
+        text-decoration: underline;
+        top:185px;
+        color:#019801;
+        @include fonttype(22);
+        font-weight:500;
+    }
+    .slider {
+        width:80%;
+        height:440px;
+        align-self:center;
+        display:flex;
+        align-items: center;
+        margin-bottom:140px;
+
+        &__arrow-left {
+            background:url(images/arrow_left.png) center no-repeat;
+            width:25px;
+            height:40px;
+            margin-right:40px;
+            cursor:pointer;
+        }
+        &__item--km,&__item--kl,&__item--tp,&__item--km2 {
+            height:100%;
+            width:23%;
+            background: url(images/product.png) no-repeat center/cover;
+            margin-right:20px;
+            display:flex;
+            align-items:flex-end;
+            text-align: center;
+            a{
+                @include fonttype(22px);
+                font-weight: 500;
+                width:100%;
+                padding:30px;
+                background:rgba(255,255,255,0.8);
+            }
+        }
+        &__arrow-right{
+            background:url(images/arrow_right.png) center no-repeat;
+            width:25px;
+            height:40px;
+            margin-left:19px;
+            cursor:pointer;
+        }
+    }
+   }
+   .projects {
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    width:100%;
+
+    &__h1 {
+        @include fonttype(50px);
+        font-weight:600;
+        color:#383838;
+        margin:140px 0px 55px 0px;
+    }
+    &__block {
+        display:flex;
+        width:85%;
+        align-items:center;
+
+    }
+    &__arrow-left {
+        cursor:pointer;
+        width:30px;
+        height:50px;
+        background:url(images/arrow_leftB.png) center/cover no-repeat;
+        margin-right:60px;
+    }
+    &__arrow-right {
+        cursor:pointer;
+        width:30px;
+        height:50px;
+        background:url(images/arrow_rightB.png) center/cover no-repeat;
+        margin-left:60px;
+    }
+    &__piccolo{
+        width:100%;
+        height:800px;
+        background:url(images/piccolo.png) center/cover no-repeat;
+    }
+    &__piccolo-text {
+        text-align:center;
+        display:inline-block;
+        padding:20px 0px;
+        width:33%;
+        @include fonttype(40px);
+        background:white;
+        margin-top:80px;
+        color:#383838;
+    }
+    &__selectors{
+        height:16px;
+        width:100px;
+        margin:20px 0px 50px 0px;
+        display:flex;
+        &-item--black {
+            width:16px;
+            margin-right:10px;
+            height:16px;
+            background:#383838;
+            cursor:pointer;
+            border-radius:100%;
+        }
+
+        &-item {
+            cursor:pointer;
+            width:16px;
+            margin-right:10px;
+            height:16px;
+            background:white;
+            border-radius:100%;
+        }   
+    }
+    &__button {
+        cursor:pointer;
+        width:220px;
+        height:60px;
+        text-align: center;
+        @include fonttype(20px);
+        color:white;
+        font-weight:500;
+        background:#019801;
+        border:none;
+        border-radius:30px;;
+        margin-bottom:140px;
+    }
+   }
+    }
+    .footer {
+        height:300px;
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background:#383838;
+        
+
+        a{
+            color:#BDBDBD;
+        }
+        &__block1 {
+            color:#BDBDBD;
+            display:flex;
+            flex-flow:column;
+            align-items: center;
+            font-size:18px;
+            font-family: "Rubik", sans-serif;
+            &-image {
+                margin-bottom:30px;
+            }
+        }
+        &__block2 {
+            color:#BDBDBD;
+            font-size:18px;
+            font-family: "Rubik", sans-serif;
+
+            p{
+                margin-bottom:27px;
+            }
+        }
+        &__block3 {
+            color:#BDBDBD;
+            font-size:18px;
+            font-family: "Rubik", sans-serif;
+
+            p{
+                margin-bottom:27px;
+            }
+        }
+        &__block4 {
+            color:#BDBDBD;
+            font-size:18px;
+            font-family: "Rubik", sans-serif;
+            display:flex;
+            &--left {
+                justify-self: flex-start;
+                margin-right:40px;
+
+                p{
+                    margin-bottom:27px;
+                }
+            }
+            &--right{
+                justify-self: flex-end;
+                
+                p{
+                   margin-top:27px;
+                }
+            }
+           
+        }
     }
 
 
