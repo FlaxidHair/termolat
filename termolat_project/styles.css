@@ -745,6 +745,7 @@
 }
 .more__termolatkm--small img {
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .more__termolatkm--big {
   margin: 100px 0px;
@@ -757,7 +758,6 @@
   width: 460px;
   height: 580px;
   margin: 100px 120px 55px 140px;
-  border: 1px solid;
 }
 .more__text h2 {
   color: red;
@@ -774,11 +774,14 @@
   line-height: 140%;
   color: #1E1E1E;
 }
+.more__text--1p {
+  margin-bottom: 15px;
+}
 .more__button {
   width: 340px;
   height: 80px;
   border: none;
-  margin-top: 55px;
+  margin-top: 40px;
   border-radius: 50px;
   font-family: "Rubik", sans-serif;
   font-size: 22px;

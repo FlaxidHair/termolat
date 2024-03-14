@@ -730,6 +730,7 @@
         flex-flow:column;
         img {
             margin-bottom:20px;
+            cursor:pointer;
         }
     }
     &__termolatkm--big {
@@ -745,7 +746,6 @@
         width:460px;
         height:580px;
         margin:100px 120px 55px 140px;
-        border:1px solid;
         h2{
             color:red;
             @include fonttype(40px);
@@ -755,12 +755,15 @@
         p {
             @include fonttype(20px);
         }
+        &--1p {
+            margin-bottom:15px;
+        }
     }
     &__button {
         width:340px;
         height:80px;
         border:none;
-        margin-top:55px;
+        margin-top:40px;
         border-radius:50px;
         @include fonttype(22px);
         color:white;
@@ -768,4 +771,5 @@
         background:#019801;
         cursor:pointer;
     }
+    
 }
