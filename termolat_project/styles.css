@@ -854,4 +854,50 @@
 }
 .more__list-km li {
   margin-bottom: 15px;
+}
+
+.more__button--applications-2 {
+  border: #019801 2px solid;
+  border-radius: 35px;
+  background: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1E1E1E;
+  color: #019801;
+  font-weight: 500;
+  width: 260px;
+  cursor: pointer;
+  height: 60px;
+  margin-left: 20px;
+}
+.more__button--stats-2 {
+  border: #D2D2D2 1px solid;
+  margin-left: 20px;
+  border-radius: 35px;
+  background: white;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1E1E1E;
+  color: #717171;
+  font-weight: 500;
+  width: 260px;
+  height: 60px;
+}
+.more__button--advantages-2 {
+  border: #D2D2D2 1px solid;
+  margin-left: 20px;
+  border-radius: 35px;
+  background: white;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1E1E1E;
+  color: #717171;
+  font-weight: 500;
+  width: 260px;
+  height: 60px;
 }/*# sourceMappingURL=styles.css.map */
