@@ -712,13 +712,13 @@
 
 .more {
     display:flex;
-    flex-flow:column;
-    align-items: center;
+    justify-content: center;
     background:#EAEAEA;
     &__cont {
         width:1420px;
         background:white;
         display:flex;
+        flex-flow:column;
         margin:100px 0px;
     }
     &__first-block {
@@ -770,6 +770,62 @@
         font-weight:500px;
         background:#019801;
         cursor:pointer;
+    }
+
+    &__second-block {
+        display:flex;
+        margin:0px 0px 50px 120px
+    }
+
+    &__button--advantages  {
+        border:#019801 2px solid;
+        border-radius:35px;
+        background:white;
+        @include fonttype(16px);
+        color:#019801;
+        font-weight:500;
+        width:260px;
+        cursor:pointer;
+        height:60px;
+    }
+    &__button--stats {
+        border:#D2D2D2 1px solid;
+        margin-left:20px;
+        border-radius:35px;
+        background:white;
+        cursor:pointer;
+        @include fonttype(16px);
+        color:#717171;
+        font-weight:500;
+        width:260px;
+        height:60px;
+    }
+    &__button--applications {
+        border:#D2D2D2 1px solid;    
+        margin-left:20px;
+        border-radius:35px;
+        background:white;
+        cursor:pointer;
+        @include fonttype(16px);
+        color:#717171;
+        font-weight:500;
+        width:260px;
+        height:60px;
+    }
+    &__third-block {
+        h2 {
+            margin:0px 0px 20px 120px;
+        }
+    }
+    &__list-km {
+        margin:0px 0px 100px 120px;
+        width:930px;
+        height:100%;
+        @include fonttype(20px);
+
+        li {
+            margin-bottom:15px;
+        }
     }
     
 }
