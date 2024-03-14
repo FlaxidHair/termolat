@@ -869,3 +869,42 @@
         height:60px;
     }
 }
+// Характеристики
+.more {
+    &__button--stats-3 {
+        border:#019801 2px solid;
+        border-radius:35px;
+        background:white;
+        @include fonttype(16px);
+        color:#019801;
+        font-weight:500;
+        width:260px;
+        cursor:pointer;
+        height:60px;
+        margin-left:20px;
+    }
+    &__button--applications-3{
+        border:#D2D2D2 1px solid;
+        margin-left:20px;
+        border-radius:35px;
+        background:white;
+        cursor:pointer;
+        @include fonttype(16px);
+        color:#717171;
+        font-weight:500;
+        width:260px;
+        height:60px;
+    }
+    &__button--advantages-3 {
+        border:#D2D2D2 1px solid;    
+        margin-left:20px;
+        border-radius:35px;
+        background:white;
+        cursor:pointer;
+        @include fonttype(16px);
+        color:#717171;
+        font-weight:500;
+        width:260px;
+        height:60px;
+    }
+}
