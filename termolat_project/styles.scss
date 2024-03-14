@@ -29,7 +29,7 @@
     }
     // навигация
     &__menu {
-        @include fonttype( 20px);
+        @include fonttype(20px);
         margin:0 auto;
         &-list {
             display:flex;
@@ -199,6 +199,10 @@
         @include fonttype(22);
         font-weight:500;
     }
+    &__all:visited {
+        color:#019801
+    }
+    }
     .slider {
         width:80%;
         height:440px;
@@ -323,15 +327,19 @@
         margin-bottom:140px;
     }
    }
-    }
+    
     .footer {
         height:300px;
         width:100%;
         display:flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         background:#383838;
-        
+        &__blocks{
+            display:flex;
+            justify-content: space-evenly;
+            width:90%;
+        }
 
         a{
             color:#BDBDBD;
@@ -342,6 +350,7 @@
             flex-flow:column;
             align-items: center;
             font-size:18px;
+            margin-left:235px;
             font-family: "Rubik", sans-serif;
             &-image {
                 margin-bottom:30px;
