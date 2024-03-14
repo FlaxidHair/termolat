@@ -13,6 +13,9 @@
         color:black;
         text-decoration: none;
     }
+    a:hover {
+        text-decoration: underline;
+    }
 }
 // Шапка
 .header {
@@ -705,3 +708,64 @@
     }
 }
 
+// termolat-km.html СТраница подробнее
+
+.more {
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    background:#EAEAEA;
+    &__cont {
+        width:1420px;
+        background:white;
+        display:flex;
+        margin:100px 0px;
+    }
+    &__first-block {
+        display:flex;
+    }
+    &__termolatkm--small{
+        margin:100px 20px 0px 120px;
+        display:flex;
+        flex-flow:column;
+        img {
+            margin-bottom:20px;
+        }
+    }
+    &__termolatkm--big {
+        margin:100px 0px;
+        img {
+            height:580px;
+            width:460px;
+
+        }
+    }
+    
+    &__text {
+        width:460px;
+        height:580px;
+        margin:100px 120px 55px 140px;
+        border:1px solid;
+        h2{
+            color:red;
+            @include fonttype(40px);
+            font-weight:600; 
+            margin-bottom:20px;
+        }
+        p {
+            @include fonttype(20px);
+        }
+    }
+    &__button {
+        width:340px;
+        height:80px;
+        border:none;
+        margin-top:55px;
+        border-radius:50px;
+        @include fonttype(22px);
+        color:white;
+        font-weight:500px;
+        background:#019801;
+        cursor:pointer;
+    }
+}

@@ -7,6 +7,9 @@
   color: black;
   text-decoration: none;
 }
+* a:hover {
+  text-decoration: underline;
+}
 
 .header {
   display: flex;
@@ -717,5 +720,72 @@
   border-radius: 30px;
   align-self: center;
   margin-right: 75px;
+  cursor: pointer;
+}
+
+.more {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: #EAEAEA;
+}
+.more__cont {
+  width: 1420px;
+  background: white;
+  display: flex;
+  margin: 100px 0px;
+}
+.more__first-block {
+  display: flex;
+}
+.more__termolatkm--small {
+  margin: 100px 20px 0px 120px;
+  display: flex;
+  flex-flow: column;
+}
+.more__termolatkm--small img {
+  margin-bottom: 20px;
+}
+.more__termolatkm--big {
+  margin: 100px 0px;
+}
+.more__termolatkm--big img {
+  height: 580px;
+  width: 460px;
+}
+.more__text {
+  width: 460px;
+  height: 580px;
+  margin: 100px 120px 55px 140px;
+  border: 1px solid;
+}
+.more__text h2 {
+  color: red;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  line-height: 140%;
+  color: #1E1E1E;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.more__text p {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1E1E1E;
+}
+.more__button {
+  width: 340px;
+  height: 80px;
+  border: none;
+  margin-top: 55px;
+  border-radius: 50px;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  line-height: 140%;
+  color: #1E1E1E;
+  color: white;
+  font-weight: 500px;
+  background: #019801;
   cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
