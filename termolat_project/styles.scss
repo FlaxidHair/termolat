@@ -1161,3 +1161,14 @@ button:hover {
         }
     }
 }
+// ЛОГИН отправки заявки 
+ .login {
+    background:#EAEAEA;
+    display:flex;
+    justify-content: center;
+    .block {
+        background:white;
+        display:flex;
+        flex-flow:column;
+    }
+ }

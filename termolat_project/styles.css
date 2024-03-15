@@ -1229,4 +1229,15 @@ button:hover {
 }
 .contacts .block__map {
   margin: 100px 120px 0px 0px;
+}
+
+.login {
+  background: #EAEAEA;
+  display: flex;
+  justify-content: center;
+}
+.login .block {
+  background: white;
+  display: flex;
+  flex-flow: column;
 }/*# sourceMappingURL=styles.css.map */

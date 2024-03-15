@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Термолат</title>
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <!-- Логотип -->
+        <div class="header__logo">
+            <a href="../index.html"><img src="../images/logotype.png" alt="Termolat"></a>
+        </div>
+        <!-- Навигация  -->
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a href="production.html">ПРОДУКЦИЯ</a></li>
+                <li class="header__menu-item"><a href="projects.html">ПРОЕКТЫ</a></li>
+                <li class="header__menu-item"><a href="tech_solutions.html">ТЕХНИЧЕСКИЕ РЕШЕНИЯ</a></li>
+                <li class="header__menu-item"><a href="">СЕРТИФИКАТЫ</a></li>
+                <li class="header__menu-iteml"><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="login">
+        <form class="block login__block">
+            <h1 class="block__title">Пожалуйста,<br>заполните данные</h1>
+            <article class="block__login--name">
+                <p class="block__input-text">Имя<sup>*</sup></p>
+                <input class="block__input" type="text" placeholder="Иван Иванович" title="Введите имя" required>
+            </article>
+            <article class="block__login--tel">
+                <p class="block__input-text" for="block__input">Телефон<sup>*</sup></p>
+                <input type="tel" placeholder="+7(___)___-__-__" title="Введите телефон">
+            </article>
+            <article class="block__login--email">
+                <p class="block__input-text">E-mail</p>
+                <input type="email" >
+            </article>
+            <button class="block__button">Отправить</button>
+            <a href="#" class="block__policy">Отправляя форму,я соглашаюсь с <span>обработкой</span> персональных данных</a>
+        </form>
+    </section>
+
+
+</body>
