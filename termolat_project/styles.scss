@@ -1098,3 +1098,66 @@ button:hover {
         }
     }
 }
+// КОНТАКТЫ
+
+.contacts {
+    background:#EAEAEA;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    &__title{
+        @include fonttype(50px);
+        font-weight:600;
+        color:#383838;
+        margin:100px 0px 80px 0px;
+    }
+    .block {
+        background:white;
+        display:flex;
+        width:1420px;
+        justify-content: center;
+        margin:0px 250px 120px 250px;
+        &__subtitle {
+            @include fonttype(30px);
+            font-weight:600;
+            color:#1E1E1E;
+            margin:0px 0px 20px 0px;
+        }
+        &__info {
+            margin:100px 130px 100px 120px;
+            &-phone {
+                display:inline-block;
+                flex-flow:column;
+                margin-bottom:50px;
+
+                &--text1{
+                    margin-bottom:10px;
+                    @include fonttype(22px);
+                    color:#0a0a0a;
+                    display:flex;
+                }
+                &--text {
+                    @include fonttype(22px);
+                    color:#0a0a0a;
+                }
+            }
+            &-email{
+                margin-bottom:50px;
+                &--text {
+                    @include fonttype(20px);
+                    color:#0a0a0a;
+                }
+            }
+            &-adress {
+                &--text{
+                    @include fonttype(20px);
+                    width:470px;
+                    color:#0a0a0a;
+                }
+            }
+        }
+        &__map {
+            margin:100px 120px 0px 0px ;
+        }
+    }
+}
