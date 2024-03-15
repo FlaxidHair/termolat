@@ -1099,4 +1099,57 @@ button:hover {
   height: 16px;
   background: white;
   border-radius: 100%;
+}
+
+.solutions__wrap {
+  background: #EAEAEA;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.solutions__title {
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  line-height: 140%;
+  color: #1E1E1E;
+  font-weight: 600;
+  color: #383838;
+  margin: 100px 0px 80px 0px;
+}
+.solutions__blocks {
+  max-width: 1420px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px 20px;
+  margin-bottom: 300px;
+}
+.solutions .block {
+  display: flex;
+  flex-flow: column;
+  background: white;
+  width: 700px;
+}
+.solutions .block__subtitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  line-height: 140%;
+  color: #1E1E1E;
+  font-weight: 500;
+  margin: 60px 0px 100px 120px;
+}
+.solutions .block__btn {
+  width: 220px;
+  height: 60px;
+  border: none;
+  margin: 0px 0px 40px 120px;
+  border-radius: 30px;
+  background: #019801;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1E1E1E;
+  font-weight: 500;
+  color: White;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
