@@ -1239,5 +1239,67 @@ button:hover {
 .login .block {
   background: white;
   display: flex;
+  margin: 120px 610px 300px 610px;
   flex-flow: column;
+  align-items: center;
+}
+.login .block__title {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  line-height: 140%;
+  color: #1E1E1E;
+  font-weight: 600;
+  color: #383838;
+  text-align: center;
+  margin: 50px 130px 30px 130px;
+}
+.login .block__inputs .block__login {
+  margin-bottom: 20px;
+}
+.login .block__inputs .block__input-text {
+  font-family: "Rubik", sans-serif;
+  font-size: 180x;
+  line-height: 140%;
+  color: #1E1E1E;
+  color: #019801;
+}
+.login .block__inputs .block__input {
+  width: 340px;
+  height: 70px;
+  border: 2px solid #019801;
+  border-radius: 50px;
+  outline: none;
+  padding: 20px 36px 20px 36px;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  line-height: 140%;
+  color: #1E1E1E;
+}
+.login .block__button {
+  width: 340px;
+  height: 80px;
+  background: #019801;
+  border: none;
+  margin: 30px 0px;
+  border-radius: 50px;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  line-height: 140%;
+  color: #1E1E1E;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login .block__policy {
+  width: 340px;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1E1E1E;
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+  color: #A0a0a0;
+}
+.login .block__policy span {
+  color: #019801;
 }/*# sourceMappingURL=styles.css.map */
