@@ -962,6 +962,12 @@ button:hover {
 .projects {
     background: #EAEAEA;
 
+    &__h1--page {
+        @include fonttype(50px);
+        font-weight:600;
+        color:#383838;
+        margin:100px 0px 80px 0px;
+    }
     // Проект ПИККОЛО
     &__piccolo-block {
         display:flex;
@@ -969,52 +975,68 @@ button:hover {
         align-items: center;
         width:100%;
     }
-
-    &__h1 {
-        @include fonttype(50px);
-        font-weight:600;
-        color:#383838;
-        margin:140px 0px 55px 0px;
-    }
-    &__block {
-        display:flex;
-        width:85%;
-        align-items:center;
-
-    }
     &__arrow-left {
         cursor:pointer;
-        width:30px;
+        width:40px;
         height:50px;
         background:url(images/arrow_leftB.png) center/cover no-repeat;
         margin-right:60px;
     }
     &__arrow-right {
         cursor:pointer;
-        width:30px;
+        width:40px;
         height:50px;
         background:url(images/arrow_rightB.png) center/cover no-repeat;
         margin-left:60px;
     }
-    &__piccolo{
-        width:100%;
-        height:800px;
-        background:url(images/piccolo.png) center/cover no-repeat;
-    }
-    &__piccolo-text {
-        text-align:center;
-        display:inline-block;
-        padding:20px 0px;
-        width:33%;
-        @include fonttype(40px);
-        background:white;
-        margin-top:80px;
-        color:#383838;
-    }
     &__selectors{
         height:16px;
         width:100px;
-        margin:20px 0px 50px 0px;
+        margin:50px 0px 80px 0px;
+        display:flex;
+        }
+   
+  
+    // Пикколо - мини
+    &__piccolo-block--mini {
+        display:flex;
+        flex-flow:column;
+        align-items: center;
+        width:100%;
+    }
+    &__piccolo--mini{
+        width:100%;
+        height:800px;
+        background:url(images/piccolo_mini.png) center/cover no-repeat;
+    }
+    // Пикколо- миди
+    &__piccolo-block--midi {
+        display:flex;
+        flex-flow:column;
+        align-items: center;
+        width:100%;
+    }
+    &__piccolo--midi{
+        width:100%;
+        height:800px;
+        background:url(images/piccolo_midi.png) center/cover no-repeat;
+    }
+    // Пикколо-макси 
+    &__piccolo-block--maxi {
+        display:flex;
+        flex-flow:column;
+        align-items: center;
+        width:100%;
+    }
+    &__piccolo--maxi{
+        width:100%;
+        height:800px;
+        background:url(images/piccolo_maxi.png) center/cover no-repeat;
+    }
+    &__selectors--last{
+        height:16px;
+        width:100px;
+        margin:50px 0px 180px 0px;
         display:flex;
         &-item--black {
             width:16px;
@@ -1024,7 +1046,6 @@ button:hover {
             cursor:pointer;
             border-radius:100%;
         }
-
         &-item {
             cursor:pointer;
             width:16px;
@@ -1033,19 +1054,5 @@ button:hover {
             background:white;
             border-radius:100%;
         }   
-    }
-    &__button {
-        cursor:pointer;
-        width:220px;
-        height:60px;
-        text-align: center;
-        @include fonttype(20px);
-        color:white;
-        font-weight:500;
-        background:#019801;
-        border:none;
-        border-radius:30px;;
-        margin-bottom:140px;
-    }
-    
    }
+}
