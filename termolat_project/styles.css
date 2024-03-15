@@ -201,7 +201,7 @@ button:hover {
   color: #1E1E1E;
   color: #383838;
   font-weight: 600;
-  margin: 140px 0px 80px 250px;
+  margin: 140px 250px 80px 250px;
   position: relative;
 }
 .container .product__all {
@@ -415,7 +415,6 @@ button:hover {
 .footer__block4--right p {
   margin-top: 27px;
 }
-
 .container__prod {
   background: #EAEAEA;
   display: flex;
