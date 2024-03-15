@@ -457,6 +457,7 @@ button:hover {
                 display:flex;
                 margin-top:20px;
             }
+            
             &--span1 {
                 width:12px;
                 height:12px;
@@ -472,6 +473,15 @@ button:hover {
                 height:12px;
                 background:#EAEAEA;
                 border-radius:100%;
+            }
+            &--span-mobile {
+                display:none;
+            }
+            &--span1-mobile {
+                display:none;
+            }
+            &--span2-mobile{
+                display:none;
             }
             &--rightarr {
                 background:url(images/arr_right-small.png);
@@ -549,6 +559,15 @@ button:hover {
                     width:220px;
                     height:280px;
                 }
+            }
+            &--span-mobile {
+                display:none;
+            }
+            &--span1-mobile {
+                display:none;
+            }
+            &--span2-mobile{
+                display:none;
             }
             &--span {
                 display:flex;
