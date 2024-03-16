@@ -172,6 +172,62 @@
   margin:0px 0px 25px 0px;
 }
 
+
+/* Страница заказа */
+.container__more  {
+  display:none;
+}
+.prod-mobile__wrapper {
+  display:flex;
+  flex-flow:column;
+  align-items: center;
+  width:90%;
+}
+.prod-mobile__slider-text {
+  display:flex;
+  flex-flow:column;
+  align-items: center;
+  width:90%;
+}
+.prod-mobile__buttons {
+  display:flex;
+  flex-flow:column;
+  align-items: center;
+  width:100%;
+  margin:0;
+  border:1px solid;
+}
+.prod-mobile__list-adv {
+  display:none;
+  
+}
+.prod-mobile__advantages-checkbox:checked~.prod-mobile__list-adv{
+  display:block;
+}
+.prod-mobile__list-apl {
+  display:none;
+}
+.prod-mobile__application-checkbox:checked~.prod-mobile__list-apl {
+  display:block;
+}
+.prod-mobile__table-stats {
+  display:none;
+}
+.prod-mobile__stats-checkbox:checked~.prod-mobile__table-stats {
+  display:block;
+}
+.prod-mobile__checklist {
+  border:1px solid;
+}
+.prod-mobile__check-button {
+  display:flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+  border-radius:35px;
+  margin-bottom:20px;
+}
+
 /* ФУТЕР */
 
 }

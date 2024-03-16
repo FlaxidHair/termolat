@@ -1328,7 +1328,7 @@ button:hover {
   display: none;
 }
 
-.container__more {
+input[type=checkbox] {
   display: none;
 }
 
