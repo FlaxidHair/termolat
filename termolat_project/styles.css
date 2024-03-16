@@ -1326,4 +1326,12 @@ button:hover {
 
 .container__prod .prodtp__slider--span-mobile {
   display: none;
+}
+
+.container__more {
+  display: none;
+}
+
+.footer__block2--mobile {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
