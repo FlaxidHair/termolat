@@ -189,14 +189,6 @@
   align-items: center;
   width:90%;
 }
-.prod-mobile__buttons {
-  display:flex;
-  flex-flow:column;
-  align-items: center;
-  width:100%;
-  margin:0;
-  border:1px solid;
-}
 .prod-mobile__list-adv {
   display:none;
   
@@ -219,15 +211,129 @@
 .prod-mobile__checklist {
   border:1px solid;
 }
+
+
+/* Стилизация продукции */
+.prod-mobile  {
+  background:#EAEAEA;
+  display:flex;
+  justify-content: center;
+}
+.prod-mobile__wrapper {
+  background:white;
+  margin:40px 0px;
+}
+/* слайдер */
+.prod-mobile__title {
+  font-family: "Rubik", sans-serif;
+  font-size:20px;
+  color:#1E1E1E;
+  font-weight:500;
+  margin:25px 0px 20px 0px;
+}
+.prod-mobile__slider {
+  display:flex;
+  align-items: center;
+  width:100%;
+  justify-content: center;
+}
+.prod-mobile__slider--leftarr {
+  width:20px;
+  height:30px;
+  margin-right:20px;
+}
+.prod-mobile__slider--img {
+  position:relative;
+  }
+.prod-mobile__slider--image1 {
+ display:grid;
+  width: 100%;
+} 
+.prod-mobile__slider--span-mobile {
+  display:flex;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%);
+  bottom:10px;
+}
+.prod-mobile__slider-text {
+  display:flex;
+  width:60%;
+}
+.prod-mobile__slider--span1-mobile {
+  width:15px;
+  height:15px;
+  background:#383838;
+  margin-right:5px;
+  border-radius:100%;
+  cursor:pointer;
+} 
+.prod-mobile__slider--span2-mobile {
+  width:15px;
+  height:15px;
+  background:white;
+  border-radius:100%;
+  cursor:pointer;
+}
+.prod-mobile__slider--rightarr {
+  width:20px;
+  height:30px;
+  margin-left:20px;
+}
+.prod-mobile__slider-text--large {
+  margin:20px 0px 30px 0px;
+  font-family:"Rubik", sans-serif;
+  font-size:16px;
+  line-height: 140%;
+  min-width:240px;
+  max-width:60%;
+} 
+.prod-mobile__buttons {
+width:100%;
+display:flex;
+flex-flow:column;
+justify-content: center;
+align-items: center;
+}
 .prod-mobile__check-button {
+  width:100%;
   display:flex;
   flex-flow:column;
-  justify-content: center;
   align-items: center;
+}
+.prod-mobile__checklist {
+  display:flex;
+  width:90%;
+  align-items: center;
+  justify-content: center;
+  font-family:"Rubik", sans-serif;
+  font-size:14px;
+  border:1px #019801 solid;
   border-radius:35px;
+  color:#019801;
+  height:50px;
   margin-bottom:20px;
 }
-
+#prod-mobile--stats {
+  margin-bottom:15px;
+}
+.prod-mobile__button--get {
+  display:flex;
+  width:100%;
+  justify-content: center;
+} 
+.prod-mobile__button-get {
+  width:90%;
+  height:50px;
+  border:none;
+  background:green;
+  border-radius:45px;
+  font-family:"Rubik", sans-serif;
+  font-size:16px;
+  font-weight:500;
+  color:white;
+  margin:15px 0px 25px 0px;
+}
 /* ФУТЕР */
 
 }

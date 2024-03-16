@@ -76,12 +76,12 @@
     <!-- Слайдер -->
     <section class="container__prod-mobile prod-mobile">
         <article class="prod-mobile__wrapper">
-            <h1>Термолат КМ</h1>
+            <h1 class="prod-mobile__title">Термолат КМ</h1>
             <div class="prod-mobile__slider-text">
             <div class="prod-mobile__slider">
-                <div class="prodkm__slider--leftarr">
+                <div class="prod-mobile__slider--leftarr">
+                    <img src="../images/arr_left-small.png" alt="<-">
                 </div>
-                <div class="prod-mobile__slider--imgspan">
                     <div class="prod-mobile__slider--img">
                         <img src="../images/product.png" class="prod-mobile__slider--image1" alt="Термолат КМ">
                         <div class="prod-mobile__slider--span-mobile">
@@ -89,19 +89,20 @@
                             <span class="prod-mobile__slider--span2-mobile"> </span>
                         </div>
                     </div>       
-                </div>
                 <div class="prod-mobile__slider--rightarr">
+                    <img src="../images/arr_right-small.png" alt="->">
                 </div>
             </div>
+            <div class="prod-mobile__slider-text">
             <p class="prod-mobile__slider-text--large">
                 Плиты <b>«Термолат КМ»</b> — универсальный современный материал с уникальными свойствами, предназначенный для применения снаружи и внутри зданий при строительных, ремонтных и реставрационных работах, а также в архитектуре и дизайне интерьеров. <br>
                 Плиты <b>«Термолат КМ»</b> обладают прочностью и долговечностью легких бетонов, легко обрабатываются, сочетаются с любыми видами отделки (окраска, штукатурка, облицовка керамической плиткой, обшивка деревом, металлом, пластиком и т.д.).
                 </p>
-        </div>
+            </div>
         <div class="prod-mobile__buttons">
             <div class="prod-mobile__check-button">
             <input type="checkbox" id="prod-mobile__advantages" class="prod-mobile__advantages-checkbox">
-            <label class="prod-mobile__checklist" for="prod-mobile__advantages">Преимущества</label>
+            <label class="prod-mobile__checklist" for="prod-mobile__advantages">ПРЕИМУЩЕСТВА</label>
             <ul class="prod-mobile__list-adv">
                 <li>высокая прочность и износостойкость;</li>
                 <li>легкость в обработке, отлично сочетаются с любыми растворами, клеями,  штукатурками, гидроизоляцией, предназначенными для бетонных (цементных) по составу оснований;</li>
@@ -121,7 +122,7 @@
             </ul>
             <div class="prod-mobile__check-button">
                 <input type="checkbox" id="prod-mobile__application" class="prod-mobile__application-checkbox">
-                <label class="prod-mobile__checklist" for="prod-mobile__application">Область применения</label>
+                <label class="prod-mobile__checklist" for="prod-mobile__application">ОБЛАСТЬ ПРИМЕНЕНИЯ</label>
                 <ul class="prod-mobile__list-apl">
                     <li>Защитно-декоративная облицовка фасадов, балконов и лоджий жилых, промышленных и общественных зданий;</li>
                     <li>Обрамление дверных и оконных проемов, отделка откосов; </li>
@@ -138,7 +139,7 @@
             </div>
             <div class="prod-mobile__check-button">
                 <input type="checkbox" id="prod-mobile__stats" class="prod-mobile__stats-checkbox">
-                <label class="prod-mobile__checklist" for="prod-mobile__stats">Характеристики</label>
+                <label class="prod-mobile__checklist" id="prod-mobile--stats" for="prod-mobile__stats">ХАРАКТЕРИСТИКИ</label>
                 <table class="prod-mobile__table-stats" cellspacing="0">
                     <tr>
                         <td class="more__first-title--mobile">Наименование показателя</td>
@@ -169,9 +170,9 @@
             </div>
             </div>
             
-            
+            <a class="prod-mobile__button--get" href="login.html"><button class="prod-mobile__button-get">Заказать</button></a>
         </div>
-        <a href="login.html"><button class="prod-mobile__button--get">Заказать</button></a>
+        
         </article>
     </section>
     <footer class="footer">
