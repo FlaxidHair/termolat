@@ -334,8 +334,40 @@ align-items: center;
   color:white;
   margin:15px 0px 25px 0px;
 }
-/* ФУТЕР */
 
+
+}
+@media(max-width:1024px) {
+/* ФУТЕР */
+.footer {
+  flex-flow:column;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  background: #383838;
+}
+.footer__block1 {
+margin:0px;
+}
+.footer__blocks {
+  justify-content: center;
+  width:33%;
+}
+.footer__block1-image {
+  margin:30px 0px 30px 0px;
+}
+.footer__block3{
+  display:none;
+}
+.footer__block1--text {
+  display:none;
+}
+.footer__block4 {
+  display:none;
+}
+.footer__block2--mobile {
+  display:flex;
+}
 }
 
 
