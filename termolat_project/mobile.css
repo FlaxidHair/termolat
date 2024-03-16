@@ -78,7 +78,7 @@
 .container__prod h1 {
     font-size:40px;
   }
-.container__prod .prodkm {
+.container__prod .prodkm ,.container__prod .prodtp {
     position:relative;
     flex-flow:column;
     align-items: center;
@@ -86,43 +86,43 @@
     height: 100%;
     width: 60%;
   }
-.container__prod .prodkm__slider {
+.container__prod .prodkm__slider,.container__prod .prodtp__slider {
     margin:50px 0px 0px 0px;
     position:relative;
   }
-  .container__prod .prodkm__slider--mobile {
+  .container__prod .prodkm__slider--mobile, .container__prod .prodtp__slider--mobile {
     display:flex;
     flex-flow:column;
     width:90
   }
-  .prodkm__slider-text--large-mobile {
+  .prodkm__slider-text--large-mobile,.prodkm__slider-text--large-mobile {
     display:flex;
     width:300px;
     align-self:flex-start;
   }
-.container__prod .prodkm__slider--img  {
+.container__prod .prodkm__slider--img,.container__prod .prodtp__slider--img {
     width: 450px;
     height: 560px; 
 }
-.container__prod .prodkm--h2{
+.container__prod .prodkm--h2,.container__prod .prodtp--h2{
  position:absolute;
  margin:0;
  top:50px;
  left:50%;
  transform:translate(-50%, -50%);
 } 
-.container__prod .prodkm__slider--span{
+.container__prod .prodkm__slider--span,.container__prod .prodtp__slider--span{
   display:none;
 }
 /* мобильные селекторы */
-.container__prod .prodkm__slider--span-mobile {
+.container__prod .prodkm__slider--span-mobile,.container__prod .prodtp__slider--span-mobile {
   display: flex;
   position:absolute;
   bottom:10px;
   left:50%;
   transform:translate(-50%);
 }
-.container__prod .prodkm__slider--span1-mobile {
+.container__prod .prodkm__slider--span1-mobile,.container__prod .prodtp__slider--span1-mobile {
   width: 12px;
   height: 12px;
   background: #383838;
@@ -130,7 +130,7 @@
   margin-right: 5px;
   cursor: pointer;
 }
-.container__prod .prodkm__slider--span2-mobile {
+.container__prod .prodkm__slider--span2-mobile,.container__prod .prodtp__slider--span2-mobile {
   cursor: pointer;
   width: 12px;
   margin-right: 10px;
@@ -138,19 +138,19 @@
   background: #EAEAEA;
   border-radius: 100%;
 }
-.container__prod .prodkm__slider--img {
+.container__prod .prodkm__slider--img,.container__prod .prodtp__slider--img  {
   width:320px;
   height:320px;
   background:url(images/product.png);
   position:relative;
 }
-.container__prod .prodkm__slider--img img {
+.container__prod .prodkm__slider--img img,.container__prod .prodtp__slider--img img {
   display:none;
 }
-.container__prod .prodkm__text-large {
+.container__prod .prodkm__text-large,.container__prod .prodtp__text-large {
   display:none;
 }
-.container__prod .prodkm__slider-mobile--large {
+.container__prod .prodkm__slider-mobile--large,.container__prod .prodtp__slider-mobile--large {
   display:flex;
   align-self:center;
   width:420px;
@@ -160,10 +160,10 @@
   color:#1E1E1E;
   margin:20px 0px ;
 }
-.container__prod .prodkm__border {
+.container__prod .prodkm__border,.container__prod .prodtp__border {
   display:none;
 }
-.container__prod .prodkm--button {
+.container__prod .prodkm--button,.container__prod .prodtp--button {
   height:60px;
   width:360px;
   background: #019801;
