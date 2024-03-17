@@ -377,9 +377,6 @@ button:hover {
   margin-left: 235px;
   font-family: "Rubik", sans-serif;
 }
-.footer__block2--mobile{
-  display:flex;
-}
 .footer__block1-image {
   margin-bottom: 30px;
 }
@@ -1332,6 +1329,10 @@ button:hover {
 }
 
 input[type=checkbox] {
+  display: none;
+}
+
+.container__prod-mobile {
   display: none;
 }
 
