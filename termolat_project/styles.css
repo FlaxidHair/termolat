@@ -1186,7 +1186,7 @@ button:hover {
   margin: 0px 0px 20px 0px;
 }
 .contacts .block__info {
-  margin: 100px 130px 100px 120px;
+  margin: 100px 130px 100px 0px;
 }
 .contacts .block__info-phone {
   display: inline-block;

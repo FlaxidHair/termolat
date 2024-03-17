@@ -354,7 +354,6 @@ align-items: center;
   font-family:"Rubik", sans-serif;
   color:#1E1E1E;
   border-collapse: collapse;
-  
 }
 .prod-mobile__table-stats {
   margin:20px 20px 15px 0px;
@@ -398,9 +397,42 @@ align-items: center;
   font-family: "Rubik", sans-serif;
   font-size:16px;
   color:#1E1E1E;
-  font-weight:
 }
+/* Контакты */
+.contacts__block {
+display:flex;
+flex-flow:column;
+align-items: center;
+width:50%;
+font-size:15px;
 }
+.contacts .block {
+  margin:0px 0px 40px 0px;
+  padding:25px 30px;
+  width:90%;
+}
+.contacts .block__map {
+  margin:0px 0px 40px 0px;
+  align-self: flex-start;
+}
+.contacts .block__info {
+  margin:0px 0px 0px 0px;
+  width:100%;
+}
+.contacts .block__info-adress--text {
+width:100%;
+margin-bottom:30px;
+}
+
+iframe {
+  width:100%;
+  height:300px;
+}
+
+}
+
+/* 1024px */
+
 @media(max-width:1024px) {
 /* ФУТЕР */
 .footer {
@@ -433,6 +465,8 @@ margin:0px;
   display:flex;
 }
 }
+
+/* 440px  */
 
 @media (max-width:440px) {
   .prod-mobile__table-stats {
