@@ -1244,8 +1244,6 @@ button:hover {
     display:none;
   }
 
-
-
 // ЧЕКБОКСЫ 
 input[type="checkbox"] {
     display:none;
@@ -1253,6 +1251,9 @@ input[type="checkbox"] {
 // Продукция подробнее 
 .container__prod-mobile {
     display:none;
+    .prod-mobile__title-stats {
+        display:none;
+      }
 }
 // Футер
 .footer__block2--mobile {

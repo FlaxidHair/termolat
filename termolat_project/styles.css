@@ -1335,6 +1335,9 @@ input[type=checkbox] {
 .container__prod-mobile {
   display: none;
 }
+.container__prod-mobile .prod-mobile__title-stats {
+  display: none;
+}
 
 .footer__block2--mobile {
   display: none;

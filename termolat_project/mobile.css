@@ -208,11 +208,14 @@
 .prod-mobile__stats-checkbox:checked~.prod-mobile__table-stats {
   display:block;
 }
+.prod-mobile__stats-checkbox:checked~.prod-mobile__title-stats {
+display:flex;
+font-size:20px;
+
+}
 .prod-mobile__checklist {
   border:1px solid;
 }
-
-
 /* Стилизация продукции */
 .prod-mobile  {
   background:#EAEAEA;
@@ -300,6 +303,7 @@ align-items: center;
   display:flex;
   flex-flow:column;
   align-items: center;
+  justify-content: center;
 }
 .prod-mobile__checklist {
   display:flex;
@@ -334,8 +338,68 @@ align-items: center;
   color:white;
   margin:15px 0px 25px 0px;
 }
+.prod-mobile__list-adv li{
+  margin:15px 0px 20px 0px;
+  line-height:15px;
+  font-family:"Rubik", sans-serif;
+  color:#1E1E1E;
+}
+.prod-mobile__list-apl li{
+  margin:15px 0px 20px 0px;
+  line-height:15px;
+  font-family:"Rubik", sans-serif;
+  color:#1E1E1E;
+}
+.prod-mobile__item-title {
+  font-family:"Rubik", sans-serif;
+  color:#1E1E1E;
+  border-collapse: collapse;
+  
+}
+.prod-mobile__table-stats {
+  margin:20px 20px 15px 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width:80%;;
+  font-family: "Rubik", sans-serif;
+  font-size:14px;
+  align-self:center;
+}
+  td{
+  border:1px solid rgb(167, 167, 167);
+ }
 
-
+.more__first-column--mobile {
+  padding:0px 0px 0px 10px;
+  color:#1E1E1E;
+  width:70%;
+  height:50px;
+}
+.more__second-column--mobile {
+  padding:0px 0px 0px 10px;
+  color:#1E1E1E;
+}
+.more__first-title--mobile{
+  padding:0px 0px 0px 10px;
+  width:50%;
+  height:50px;
+  color:#1E1E1E;
+  font-weight:500;
+}
+.more__second-title--mobile{
+  padding:0px 0px 0px 10px;
+  color:#1E1E1E;
+  font-weight:500;
+  width:50%;
+  height:50px;
+  font-size:16px;
+}
+.prod-mobile__title-stats {
+  font-family: "Rubik", sans-serif;
+  font-size:16px;
+  color:#1E1E1E;
+  font-weight:
+}
 }
 @media(max-width:1024px) {
 /* ФУТЕР */
@@ -368,25 +432,12 @@ margin:0px;
 .footer__block2--mobile {
   display:flex;
 }
-.prod-mobile__list-adv li{
-  margin:15px 0px 20px 0px;
-  line-height:15px;
-  font-family:"Rubik", sans-serif;
-  color:#1E1E1E;
-}
-.prod-mobile__list-apl li{
-  margin:15px 0px 20px 0px;
-  line-height:15px;
-  font-family:"Rubik", sans-serif;
-  color:#1E1E1E;
-}
-.prod-mobile__item-title {
-  font-family:"Rubik", sans-serif;
-  color:#1E1E1E;
-  font-size:16px;
 }
 
+@media (max-width:440px) {
+  .prod-mobile__table-stats {
+    position:relative;
+    left:-15%;
+  }
 }
-
-
 
