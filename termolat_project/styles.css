@@ -47,6 +47,10 @@ button:hover {
   margin-right: 70px;
 }
 
+.header__menu-item--mobile, .header__menu-item--mobile2, .header__menu-logo--mobile {
+  display: none;
+}
+
 .container {
   background: #EAEAEA;
 }

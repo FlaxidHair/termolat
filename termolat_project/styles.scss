@@ -50,6 +50,10 @@ button:hover {
         }        
     }
 }
+// mobile
+.header__menu-item--mobile, .header__menu-item--mobile2,.header__menu-logo--mobile {
+        display:none;
+}
 .container {
     background:#EAEAEA;
     // блок с черными векторами и изображением

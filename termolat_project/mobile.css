@@ -450,7 +450,64 @@ iframe {
 /* 1024px */
 
 @media(max-width:1024px) {
+/* Шапка */
+.header__menu-list  {
+  display:none;
+}
+.header {
+  display:flex;
+  align-items: center;
+  height:100%;
+  width:100%;
+  z-index:40;
+  position:relative;
+}
 
+  .header__logo{
+    width:150px;
+    margin:0px;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:0px;
+
+  }
+  .header__menu-list {
+    margin:0px;
+    font-size:18px;
+
+  }
+  .header__menu-item {
+    margin:0px 0px 20px 25px; 
+  }
+  .header__menu-iteml {
+    margin: 0px 0px 40px 25px;
+  }
+   .header__menu-item--mobile {
+    font-size:18px;
+    margin:0px 0px 10px 25px;
+    display:block;
+   }
+   .header__menu-item--mobile a  {
+    text-decoration: none;
+   }
+   .header__menu-item--mobile2 {
+    font-size:18px;
+    margin:0px 0px 40px 25px;
+    display:block;
+   }
+
+
+.header__menu-logo--mobile {
+  display:flex;
+  font-size:70px;
+  color:#019801;
+  margin:50px 0px 50px 25px;
+}
+.header__menu--mobile:checked~.header__menu-list  {
+display:flex;
+flex-flow:column;
+}
 /* ФУТЕР */
 .footer {
   flex-flow:column;
@@ -529,7 +586,6 @@ display:none;
 .container__prod .prodkm__slider-mobile--large,.container__prod .prodtp__slider-mobile--large,.container__prod .prodkl__slider-mobile--large {
 width:90%;
 height:100%;
-border:1px solid;
 font-size:18px;
 }
 .container__prod .prodkm--button,.container__prod .prodtp--button,.container__prod .prodkl--button {
