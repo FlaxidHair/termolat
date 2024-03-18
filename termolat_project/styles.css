@@ -1315,6 +1315,10 @@ button:hover {
   color: #019801;
 }
 
+.container__clip--mobile {
+  display: none;
+}
+
 .prodkm__slider-mobile--large {
   display: none;
 }

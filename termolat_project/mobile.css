@@ -456,7 +456,6 @@ iframe {
 }
 .projects__piccolo,.projects__piccolo--mini,.projects__piccolo--midi,.projects__piccolo--maxi {
   background:none;
-  position:relative;
   height:100%;
 }
 .projects__block {
@@ -490,6 +489,9 @@ iframe {
   width:12px;
   height:12px;
 }
+.containter__projects {
+  position:relative;
+}
 .projects__selectors,.projects__selectors--last {
   margin:0px;
   position:absolute;
@@ -521,6 +523,56 @@ iframe {
    }
    .container__clip{
      display:none;
+   }
+   .container__clip--mobile {
+      display:flex;
+      flex-flow:column;
+   }
+   .container__clip-img-mobile {
+    width:100%;
+    height:400px;
+   }
+   .container__clip-second--mobile {
+    background:#383838;
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-flow:column;
+    align-items: center;
+    text-align: center;
+   }
+   .block-text__text-1{
+    font-size:26px;
+    font-family: "Rubik", sans-serif;
+    width:90%;
+    font-weight:600;
+    color:white;
+    margin:30px 0px 20px 0px;
+   }
+   .block-text__text-2 {
+    font-family:"Rubik", sans-serif; 
+    color:white;
+    margin:0px 25px 30px 25px;
+   }
+   .block-text__buttons--mobile{
+    display:flex;
+    flex-flow:column;
+   }
+   .block-text__buttons-first--mobile,.block-text__buttons-second--mobile {
+    text-align:center;
+    font-family:"Rubik", sans-serif; 
+    font-size:16px;
+    font-weight:500;
+    color:white;
+    background:#019801;
+    width:310px;
+    height:50px;
+    border:none;
+    border-radius:45px;
+    margin:0px 0px 20px 0px;
+   }
+   .block-text__buttons-second--mobile {
+    margin-bottom:40px;
    }
   /* Проекты */  
   .projects__button {
