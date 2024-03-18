@@ -34,12 +34,12 @@
   height:100%;
 }
 .contacts {
-  justify-content: inherit;
+  justify-content: normal;
   height:100%;
 }
 .solutions__wrap {
   height:100%;
-  justify-content: inherit;
+  justify-content: normal;
 }
 .login {
   height:normal;
