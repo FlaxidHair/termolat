@@ -606,9 +606,55 @@ iframe {
     font-size:18px;
     margin:0px 0px 0px 20px;
    }
+   /* Продукция */
+   .slider__arrow-right,.slider__arrow-left {
+    display:none;
+   }
+   .container .product h1 {
+    margin:50px 0px 35px 0px;
+    align-self: center;
+    font-size:26px;
+   }
+   .container .slider {
+    flex-flow:column;
+    width:70%;
+    height:100%;
+    align-items: center;
+    margin:0px;
+    justify-content: center;
+   }
+   .container .slider__item--km, .container .slider__item--kl, .container .slider__item--tp, .container .slider__item--km2{
+    width:100%;
+    border:1px solid;
+    margin:0px 0px 25px 0px;
+    height:600px;
+   }
+   .container .slider__item--km a, .container .slider__item--kl a, .container .slider__item--tp a, .container .slider__item--km2 a{
+    font-size:18px;
+    padding:15px;
+   }
+   .product__all {
+    display:none;
+   }
+   .slider__button-all--link {
+    display:flex;
+   }
+   .slider__button-all{
+    width: 220px;
+    height: 60px;
+    background-color: #019801;
+    color:white;
+    font-size:16px;
+    font-family:"Rubik", sans-serif;
+    border:none;
+    border-radius:45px;
+    margin:5px 0px 40px 0px;
+    cursor:pointer;
+   }
   /* Проекты */  
   .projects__button {
     margin:30px 0px 50px 0px;
+    
   }
 /* Шапка */
 .header__menu-list  {
@@ -763,6 +809,9 @@ width:240px;
     }
     .container .advantages__circles {
       align-self: flex-start;
+    }
+    .container .slider__item--km, .container .slider__item--kl, .container .slider__item--tp, .container .slider__item--km2 {
+      height:300px
     }
 }
 /* 440px  */
