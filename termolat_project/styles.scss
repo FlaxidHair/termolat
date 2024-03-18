@@ -297,7 +297,7 @@ button:hover {
         text-align:center;
         display:inline-block;
         padding:20px 0px;
-        width:33%;
+        width:34%;
         @include fonttype(40px);
         background:white;
         margin-top:80px;
@@ -1260,6 +1260,10 @@ input[type="checkbox"] {
 }
 // projects.html 
 .projects__piccolo--image {
+    display:none;
+}
+//  Стрелки белые для мобилки
+.projects__piccolo-arr-whiter, .projects__piccolo-arr--whitel {
     display:none;
 }
 // Футер

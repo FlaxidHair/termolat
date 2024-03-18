@@ -450,8 +450,8 @@ iframe {
   width:100%;
   margin:0px;
   text-align:left;
-  font-size:25px;
-  padding:20px 0px 20px 25px;
+  font-size:22px;
+  padding:13px 0px 13px 25px;
   position:relative;
 }
 .projects__piccolo,.projects__piccolo--mini,.projects__piccolo--midi,.projects__piccolo--maxi {
@@ -467,12 +467,14 @@ iframe {
   width:100%;
 }
 .projects__piccolo-arr--whitel {
+  display:block;
   position:absolute;
   left:25px;
   top:50%;
   transform:translateY(-50%);
 }
 .projects__piccolo-arr-whiter {
+  display:block;
   position:absolute;
   right:25px;
   top:50%;
@@ -518,15 +520,18 @@ iframe {
   z-index:40;
   position:relative;
 }
-
+  .header__logo--image {
+    width:120px;
+    height:60px;
+  }
   .header__logo{
-    width:150px;
+    width:120px;
+    height:60px;
     margin:0px;
     position:absolute;
     left:50%;
     transform:translate(-50%);
-    top:0px;
-
+    top:10px;
   }
   .header__menu-list {
     margin:0px;
@@ -552,17 +557,15 @@ iframe {
     margin:0px 0px 40px 25px;
     display:block;
    }
-
-
-.header__menu-logo--mobile {
+  .header__menu-logo--mobile {
   display:flex;
-  font-size:70px;
+  font-size:40px;
   color:#019801;
   margin:50px 0px 50px 25px;
 }
-.header__menu--mobile:checked~.header__menu-list  {
-display:flex;
-flex-flow:column;
+  .header__menu--mobile:checked~.header__menu-list  {
+    display:flex;
+    flex-flow:column;
 }
 /* ФУТЕР */
 .footer {

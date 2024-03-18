@@ -309,7 +309,7 @@ button:hover {
   text-align: center;
   display: inline-block;
   padding: 20px 0px;
-  width: 33%;
+  width: 34%;
   font-family: "Rubik", sans-serif;
   font-size: 40px;
   line-height: 140%;
@@ -1345,6 +1345,10 @@ input[type=checkbox] {
 }
 
 .projects__piccolo--image {
+  display: none;
+}
+
+.projects__piccolo-arr-whiter, .projects__piccolo-arr--whitel {
   display: none;
 }
 
