@@ -35,10 +35,10 @@
 }
 .contacts {
   justify-content: inherit;
-  height:100%;
+  height:normal;
 }
 .solutions__wrap {
-  height:100%;
+  height:normal;
 }
 .login {
   height:normal;
