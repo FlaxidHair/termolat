@@ -1,4 +1,4 @@
-@media(max-width:4000px) {
+/* @media(max-width:4000px) {
   .footer {
     height:500px;
   }
@@ -21,8 +21,8 @@
     height:100vh;
     align-items: center;
   }
-}
-@media(max-width:1920px) {
+} */
+/* @media(max-width:1920px) {
 .footer {
   height:300px;
 }
@@ -45,7 +45,7 @@
   height:normal;
   align-items: flex-start;
 }
-}
+} */
 @media(max-width:1440px) {
     /* Index.html */
 .header__logo {
