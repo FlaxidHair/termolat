@@ -445,6 +445,62 @@ iframe {
   height: 40px;
   font-size:16px;
 }
+/* Проекты */
+.projects__piccolo-text {
+  width:100%;
+  margin:0px;
+  text-align:left;
+  font-size:25px;
+  padding:20px 0px 20px 25px;
+  position:relative;
+}
+.projects__piccolo,.projects__piccolo--mini,.projects__piccolo--midi,.projects__piccolo--maxi {
+  background:none;
+  position:relative;
+  height:100%;
+}
+.projects__block {
+  width:100%;
+}
+.projects__piccolo--image {
+  display:flex;
+  width:100%;
+}
+.projects__piccolo-arr--whitel {
+  position:absolute;
+  left:25px;
+  top:50%;
+  transform:translateY(-50%);
+}
+.projects__piccolo-arr-whiter {
+  position:absolute;
+  right:25px;
+  top:50%;
+  transform:translateY(-50%);
+}
+.projects__arrow-right {
+  display:none;
+}
+.projects__arrow-left {
+  display:none;
+}
+.projects__selectors-item--black,.projects__selectors-item {
+  width:12px;
+  height:12px;
+}
+.projects__selectors,.projects__selectors--last {
+  margin:0px;
+  position:absolute;
+  bottom:10px;
+}
+.projects__piccolo-block,.projects__piccolo-block--mini,.projects__piccolo-block--midi,.projects__piccolo-block--maxi{
+  position:relative;
+  height:100%;
+  margin:0px 0px 30px 0px;
+}
+.projects__piccolo-block--maxi{
+  margin-bottom:50px;
+}
 }
 
 /* 1024px */

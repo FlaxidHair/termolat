@@ -303,6 +303,7 @@ button:hover {
   width: 100%;
   height: 800px;
   background: url(images/piccolo.png) center/cover no-repeat;
+  position: relative;
 }
 .projects__piccolo-text {
   text-align: center;
@@ -1340,6 +1341,10 @@ input[type=checkbox] {
   display: none;
 }
 .container__prod-mobile .prod-mobile__title-stats {
+  display: none;
+}
+
+.projects__piccolo--image {
   display: none;
 }
 
