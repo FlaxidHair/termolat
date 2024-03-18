@@ -32,6 +32,12 @@
     </header>
     <!-- Основная часть страницы -->
     <div class="container">
+        <!-- mobile clip -->
+        <div class="container__clip--mobile">
+            <div>
+            <img src="images/right-clip.png" alt=" ">
+            </div>
+        </div>
         <section class="container__clip-advantages">
         <div class="container__clip">
             <div class="container__left-clip left-clip">
@@ -45,7 +51,6 @@
                         <img src="images/vector2.svg" alt="/">
                     </div>
                 </div>
-                <!-- Вектора / -->
                 <!-- Текст и кнопки на черном фоне -->
                 <div class="left-clip__block-text block-text">
                     <h1 class="block-text__text-1">СОВРЕМЕННЫЕ МАТЕРИАЛЫ ДЛЯ СТРОИТЕЛЬСТВА</h1>
@@ -123,7 +128,11 @@
 
             </div>
             <div class="projects__piccolo">
-                <p class="projects__piccolo-text">ПИККОЛО</p>
+                <div class="project__piccolo-mobile--image">
+                    <img class="projects__piccolo--image" src="images/piccolo.png" alt="">
+                    <img src="images/arr_left--white.png" class="projects__piccolo-arr--whitel" alt="<-">
+                    <img src="images/arr_right--white.png" class="projects__piccolo-arr-whiter" alt="->">
+                </div>
             </div>
             <div class="projects__arrow-right">
 
@@ -135,8 +144,8 @@
             <span class="projects__selectors-item"> </span>
             <span class="projects__selectors-item"> </span>
         </div>
-        <a href="pages/projects.html"><button class="projects__button">Смотреть все</button></a>
     </section>
+    <a href="pages/projects.html" class="projects__link-button"><button class="projects__button">Смотреть все</button></a>
     </div>
     <!-- Футер -->
     <footer class="footer">

@@ -53,6 +53,8 @@ button:hover {
 
 .container {
   background: #EAEAEA;
+  display: flex;
+  flex-flow: column;
 }
 .container__clip {
   height: 938px;
@@ -284,6 +286,7 @@ button:hover {
   display: flex;
   width: 85%;
   align-items: center;
+  position: relative;
 }
 .projects__arrow-left {
   cursor: pointer;
@@ -355,6 +358,9 @@ button:hover {
   border: none;
   border-radius: 30px;
   margin-bottom: 140px;
+}
+.projects__link-button {
+  align-self: center;
 }
 
 .footer {

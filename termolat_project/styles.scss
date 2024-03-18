@@ -56,6 +56,8 @@ button:hover {
 }
 .container {
     background:#EAEAEA;
+    display:flex;
+    flex-flow:column;
     // блок с черными векторами и изображением
     &__clip {
         height:938px;
@@ -262,6 +264,7 @@ button:hover {
     flex-flow:column;
     align-items: center;
     width:100%;
+   
     &__h1 {
         @include fonttype(50px);
         font-weight:600;
@@ -272,6 +275,7 @@ button:hover {
         display:flex;
         width:85%;
         align-items:center;
+        position:relative;
     }
     &__arrow-left {
         cursor:pointer;
@@ -338,6 +342,9 @@ button:hover {
         border:none;
         border-radius:30px;;
         margin-bottom:140px;
+    }
+    &__link-button {
+        align-self:center;
     }
    }
     
