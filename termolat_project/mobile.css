@@ -403,6 +403,22 @@ align-items: center;
 width:50%;
 font-size:15px;
 }
+.login .block__title {
+font-size:20px;
+margin:25px 0px 25px 0px;
+}
+.login .block__inputs .block__input,.login .block__button {
+  width:240px;
+  height:50px;
+  font-size: 16px;
+  margin:10px;
+}
+.login .block__policy {
+  font-size:15px;
+}
+.contacts__title {
+  font-size:26px;
+}
 .contacts .block {
   margin:0px 0px 40px 0px;
   padding:25px 30px;
@@ -424,6 +440,7 @@ iframe {
   width:100%;
   height:300px;
 }
+/* Логин */
 
 /* Технические решения */
 .solutions__blocks {

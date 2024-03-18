@@ -1262,7 +1262,8 @@ button:hover {
   font-weight: 600;
   color: #383838;
   text-align: center;
-  margin: 50px 130px 30px 130px;
+  margin: 50px 120px 30px 120px;
+  width: 100%;
 }
 .login .block__inputs .block__login {
   margin-bottom: 20px;
