@@ -576,7 +576,36 @@ iframe {
     margin-bottom:40px;
    }
    /* Наши преимущества */
-   
+   .container .advantages__h1 {
+    font-size:26px;
+    margin:40px 0px 30px 0px;
+   }
+   .container .advantages__circles{
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    align-self:center;
+    margin:0px 0px 40px 25px;
+   }
+   .container .advantages__circles-block {
+    margin:0px 0px 25px 0px;
+    flex-flow:row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+   }
+   .container .advantages__circles-image{
+    width:80px;
+    height:80px;
+   }
+   .container .advantages__circles-image img {
+    width:50%;
+    height:50%
+   }
+   .container .advantages__circles-block p  {
+    font-size:18px;
+    margin:0px 0px 0px 20px;
+   }
   /* Проекты */  
   .projects__button {
     margin:30px 0px 50px 0px;
@@ -731,6 +760,9 @@ width:240px;
   .container__prod .prodkm__slider--img,.container__prod .prodtp__slider--img,.container__prod .prodkl__slider--img  {
     width:100%;
     height:250px;
+    }
+    .container .advantages__circles {
+      align-self: flex-start;
     }
 }
 /* 440px  */
