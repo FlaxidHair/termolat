@@ -570,10 +570,13 @@ iframe {
     border:none;
     border-radius:45px;
     margin:0px 0px 20px 0px;
+    cursor:pointer;
    }
    .block-text__buttons-second--mobile {
     margin-bottom:40px;
    }
+   /* Наши преимущества */
+   
   /* Проекты */  
   .projects__button {
     margin:30px 0px 50px 0px;
