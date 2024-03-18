@@ -35,14 +35,14 @@
 }
 .contacts {
   justify-content: inherit;
-  height:normal;
+  height:100%;
 }
 .solutions__wrap {
   height:normal;
 }
 .login {
   height:normal;
-  align-items: center;
+  align-items: none;
 }
 }
 @media(max-width:1440px) {
