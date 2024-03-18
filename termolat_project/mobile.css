@@ -432,6 +432,9 @@ iframe {
   width:70%;
   margin-bottom: 150px;
 }
+.solutions__title {
+  font-size:26px;
+}
 .solutions .block {
   width:90%;
 }
@@ -625,7 +628,6 @@ iframe {
    }
    .container .slider__item--km, .container .slider__item--kl, .container .slider__item--tp, .container .slider__item--km2{
     width:100%;
-    border:1px solid;
     margin:0px 0px 25px 0px;
     height:600px;
    }
@@ -654,8 +656,12 @@ iframe {
   /* Проекты */  
   .projects__button {
     margin:30px 0px 50px 0px;
-    
   }
+    .projects__h1 {
+      margin:40px 0px 30px 0px;
+      font-size:26px;
+    }
+  
 /* Шапка */
 .header__menu-list  {
   display:none;
