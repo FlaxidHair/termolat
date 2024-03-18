@@ -42,7 +42,7 @@
 }
 .login {
   height:normal;
-  align-items: none;
+  align-items: flex-start;
 }
 }
 @media(max-width:1440px) {
