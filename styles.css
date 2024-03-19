@@ -37,7 +37,6 @@ button:hover {
   font-size: 20px;
   line-height: 140%;
   color: #1E1E1E;
-  margin: 0 auto;
 }
 .header__menu-list {
   display: flex;
@@ -1366,7 +1365,9 @@ input[type=checkbox] {
 .projects__piccolo-arr-whiter, .projects__piccolo-arr--whitel {
   display: none;
 }
-
+.prodkm__slider--image1 {
+  display:none;
+}
 .footer__block2--mobile {
   display: none;
 }/*# sourceMappingURL=styles.css.map */
