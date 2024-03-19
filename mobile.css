@@ -22,9 +22,11 @@
     align-items: center;
   }
 }
-@media(max-width:2560px) {
+  @media(max-width:1920px) {
 .footer {
   height:300px;
+  position:relative;
+  bottom:0px;
 }
 .footer__block1,.footer__block2,.footer__block3,.footer__block4 {
   font-size:18px;
