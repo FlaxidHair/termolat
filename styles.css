@@ -754,6 +754,12 @@ button:hover {
   flex-flow: column;
   margin: 100px 0px;
 }
+.more__block-title {
+  font-family:"Rubik", sans-serif;
+  font-size:24px;
+  font-weight:600;
+  color:#1E1E1E;
+}
 .more__first-block {
   display: flex;
 }
@@ -779,7 +785,6 @@ button:hover {
   margin: 100px 120px 55px 140px;
 }
 .more__text h2 {
-  color: red;
   font-family: "Rubik", sans-serif;
   font-size: 40px;
   line-height: 140%;
