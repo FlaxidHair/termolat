@@ -30,14 +30,15 @@ button:hover {
 .header__logo {
   height: 105px;
   width: 200px;
-  margin-left: 80px;
+  position: absolute;
+  left: 60px;
 }
 .header__menu {
   font-family: "Rubik", sans-serif;
   font-size: 20px;
   line-height: 140%;
   color: #1E1E1E;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .header__menu-list {
   display: flex;
@@ -755,12 +756,6 @@ button:hover {
   flex-flow: column;
   margin: 100px 0px;
 }
-.more__block-title {
-  font-family:"Rubik", sans-serif;
-  font-size:24px;
-  font-weight:600;
-  color:#1E1E1E;
-}
 .more__first-block {
   display: flex;
 }
@@ -786,6 +781,7 @@ button:hover {
   margin: 100px 120px 55px 140px;
 }
 .more__text h2 {
+  color: red;
   font-family: "Rubik", sans-serif;
   font-size: 40px;
   line-height: 140%;
@@ -1371,9 +1367,7 @@ input[type=checkbox] {
 .projects__piccolo-arr-whiter, .projects__piccolo-arr--whitel {
   display: none;
 }
-.prodkm__slider--image1 {
-  display:none;
-}
+
 .footer__block2--mobile {
   display: none;
 }/*# sourceMappingURL=styles.css.map */

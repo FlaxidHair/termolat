@@ -35,7 +35,8 @@ button:hover {
     &__logo{
         height:105px;
         width:200px;
-        margin-left:80px;
+        position:absolute;
+        left:60px;        
     }
     // навигация
     &__menu {
